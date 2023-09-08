@@ -1,0 +1,16 @@
+{
+  "../../node_modules/.pnpm/use-sound@4.0.1_react@17.0.2/node_modules/use-sound/dist/use-sound.esm.js -> howler": {
+    "id": 8509,
+    "files": [
+      "static/chunks/509.34d777ce119a397e.js"
+    ]
+  },
+  "../layouts/Default.layout.tsx -> ~/components/Background/Standard.component": {
+    "id": 561,
+    "files": []
+  },
+  "index.tsx -> ~/components/Event.component": {
+    "id": 4576,
+    "files": []
+  }
+}
