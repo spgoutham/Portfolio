@@ -1,0 +1,36 @@
+export declare class Vec3 extends Array<number> {
+    constant: number;
+    constructor(x?: number, y?: number, z?: number);
+    get x(): number;
+    get y(): number;
+    get z(): number;
+    set x(v: number);
+    set y(v: number);
+    set z(v: number);
+    set(x: number | Array<number>, y?: number | number[], z?: number | number[]): this;
+    copy(v: any): this;
+    add(va: any, vb?: Vec3): this;
+    sub(va: any, vb?: Vec3): this;
+    multiply(v: any): this;
+    divide(v: any): this;
+    inverse(v?: this): this;
+    len(): number;
+    distance(v?: Vec3): number;
+    squaredLen(): number;
+    squaredDistance(v?: Vec3): number;
+    negate(v?: this): this;
+    cross(va: any, vb?: any): this;
+    scale(v: any): this;
+    normalize(): this;
+    dot(v: any): number;
+    equals(v: any): boolean;
+    applyMatrix4(mat4: any): this;
+    scaleRotateMatrix4(mat4: any): this;
+    applyQuaternion(q: any): this;
+    angle(v: any): number;
+    lerp(v: any, t: any): this;
+    clone(): Vec3;
+    fromArray(a: any, o?: number): this;
+    toArray(a?: Float32Array | Array<number>, o?: number): number[] | Float32Array;
+    transformDirection(mat4: any): this;
+}
